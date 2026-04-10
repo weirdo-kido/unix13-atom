@@ -11,6 +11,7 @@
   "I'm so lazy to farm karma at reddit"
   "but you can search u/weirdo-kido"
   "I hope my reddit acc safe because my karma negative one."__φ(．．)
+  "update 2026-04-10 my reddit acc gone." (TдT)
 -->
 
 <!DOCTYPE html>
@@ -113,11 +114,11 @@
         <div class="input-zone">
 
             <input id="ui" type="tel" placeholder="13 digits unix ts..." maxlength="13" spellcheck="false" autocomplete="off" aria-label="Type">
-            <button id="ub" aria-label="convert time">
+            <!--button id="ub" aria-label="convert time">
               <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
   <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.6-.8 1.4z"></path>
 </svg>
-            </button>
+            </button -->
         </div>
     </footer>
 
@@ -152,7 +153,7 @@
         elIn.blur(); 
     };
 
-    btn.onclick = convert;
+    //btn.onclick = convert;
     
 
     elIn.addEventListener('input', (e) => {
@@ -167,7 +168,7 @@
         elIn.classList.remove('invalid');
         
 
-        //if (sanitized.length === 13) convert(); 
+        if (sanitized.length === 13) convert(); 
     });
 
     elIn.onkeydown = (e) => {
