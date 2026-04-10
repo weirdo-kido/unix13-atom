@@ -4,7 +4,7 @@
 
 
 ### How to use
-Type 13 digits number unix 13 epoch, then press enter or tap clock button.  
+Type 13 digits number unix 13 epoch ~~, then press enter or tap clock button~~.  
 
 
 ---
